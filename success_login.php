@@ -34,7 +34,7 @@ Nature Connect - Basic Website:
 		?>
 	</div>
 	<div class="main">
-		<p>Congratulations, <b><?php echo $user; ?></b>, you have successfully logged in!</p>
+		<p>Congratulations, <b><?php echo $user;?></b>, you have successfully logged in!</p>
 	</div>
 	<div class="footer">
 		<?php
