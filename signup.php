@@ -29,6 +29,7 @@ Nature Connect - Basic Website:
 		input[type="submit"] {margin-top: 50px; }
 		.footer {width: 100%; color: black; background-color: #8A9A5B; text-align: center; padding: 5px; padding-top: 20px;	box-sizing: border-box; }
 		footer {background-color: #8A9A5B; text-align: center; padding: 10px 0; color: white; width: 100%; }
+		.error {color: #fe4365; font-weight: bold; margin-left: 10px; clear: none; }
 	</style>
 </head>
 <body>
@@ -111,16 +112,19 @@ Nature Connect - Basic Website:
 			</div>
 			<div class="form-group">
 				<label for="user">Username: </label>
-				<input type="username" id="user" name="user" required value="<?php echo $user; ?>" />
-            </div>
+				<input type="username" id="user" name="user" required />
+				<label class="error"><?php echo $user?></label>	
+            		</div>
 			<div class="form-group">
 				<label for="pw1">Password: </label>
-				<input type="password" id="pw1" name="pw1" required value="<?php echo $pw1; ?>" />
+				<input type="password" id="pw1" name="pw1" required />
+				<label class="error"><?php echo $pw1?></label>	
 			</div>
 			<div class="form-group">
 				<label for="pw2">Re-Enter Password: </label>
-				<input type="password" id="pw2" name="pw2" required value="<?php echo $pw2; ?>" />
-            </div>
+				<input type="password" id="pw2" name="pw2" required />
+				<label class="error"><?php echo $pw2?></label>
+            		</div>
 			<button type="submit">Sign Up</button>
         </form>
 		</div>
