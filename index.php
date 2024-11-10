@@ -22,8 +22,10 @@ Nature Connect :
         <h2>Welcome to NatureConnect</h2>
         <p>Your gateway to connecting with the natural world. Join us in exploring the beauty of nature and finding ways to protect our environment.</p>
     </main>
-    <footer>
-        <p>&copy; 2024 NatureConnect. All rights reserved.</p>
-    </footer>
+     <div class="footer">
+	<?php
+		include "footer.php";
+	?>
+    </div>
 </body>
 </html>
