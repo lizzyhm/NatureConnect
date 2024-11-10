@@ -39,16 +39,15 @@ Nature Connect - Basic Website:
 		$pw = "";
 		if ($_SERVER['REQUEST_METHOD'] == 'POST'){
 			$user = $_POST['user'];
+			$pw1 = $_POST['pw1'];
 			if (empty($user)){
 				$empname = "Name is required";
 			}
 			else {
 				$_SESSION['user'] = $user;
+				header("Location: success_login.php");
+				exit;
 			}
-			$pw1 = $_POST['pw1'];
-			
-			header("Location: success_login.php");
-			exit;
 		}
 	?>
 	<div class="header">
