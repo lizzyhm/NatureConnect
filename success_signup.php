@@ -3,6 +3,12 @@
 	$user = htmlspecialchars($_SESSION['user']);
 ?>
 <!DOCTYPE>
+<!-- 
+Nature Connect - Basic Website:
+	Sarah E.
+	Rebeca R.
+	Elizabeth H.M.
+-->
 <html>
 <head>
 	<meta charset="UTF-8">
