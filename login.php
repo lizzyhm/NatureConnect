@@ -45,7 +45,7 @@ Nature Connect - Basic Website:
 			}
 			else {
 				$_SESSION['user'] = $user;
-				header("Location: success_login.php");
+				header("location: success_login.php");
 				exit;
 			}
 		}
