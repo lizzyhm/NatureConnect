@@ -2,9 +2,9 @@
 	session_start();
 ?>
 
-<!DOCTYPE html>
+<!DOCTYPE>
 <!-- 
-Nature Connect :
+Nature Connect - Basic Website:
 	Sarah E.
 	Rebeca R.
 	Elizabeth H.M.
