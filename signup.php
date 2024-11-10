@@ -28,7 +28,8 @@ Nature Connect :
 		.form-group {display: flex; align-items: center; margin-right: 50px; margin-top:10px;}
 		label {margin-right: 5px; width: 180px; text-align: right;}
 		input[type="submit"] {margin-top: 50px; }
-		footer {background-color: #8A9A5B; text-align: center; padding: 10px 0; color: white; position: fixed; width: 100%; bottom: 0; }
+		.footer {width: 100%; color: black; background-color: #8A9A5B; text-align: center; padding: 5px; padding-top: 20px;	box-sizing: border-box; }
+		footer {background-color: #8A9A5B; text-align: center; padding: 10px 0; color: white; width: 100%; }
 	</style>
 </head>
 <body>
