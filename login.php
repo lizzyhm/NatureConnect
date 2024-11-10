@@ -14,8 +14,7 @@ Nature Connect :
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NatureConnect - Log In/Sign Up</title>
-    <!-- <link rel="stylesheet" href="styles.css"> -->
-	<style>
+    <style>
 		html {background-color: #83af9b;}
 		body {font-family: 'Times New Roman', serif; display: flex;	flex-direction: column;	justify-content: center; align-items: center; text-align: center; margin: 0; min-height:100vh; }
 		header {background-color: #8A9A5B; padding: 10px 0; color: white;  width: 100%;}
@@ -32,7 +31,7 @@ Nature Connect :
 		input[type="submit"] {margin-top: 15px; }
 		.footer {width: 100%; color: black; background-color: #8A9A5B; text-align: center; padding: 5px; padding-top: 20px;	box-sizing: border-box; }
 		footer {background-color: #8A9A5B; text-align: center; padding: 10px 0; color: white; width: 100%; }
-	</style>
+    </style>
 </head>
 <body>
 	<?php
