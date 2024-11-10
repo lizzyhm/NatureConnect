@@ -117,9 +117,9 @@ Nature Connect - Basic Website:
         	<form action="signup.php" method="POST">
 			<div class="form-group">
 				<label for="n">Name: </label>
-				<input type="name" id="n" name="n" required />
-				<label class="error"><?php echo $err;?></label>	
+				<input type="name" id="n" name="n" required />	
 			</div>
+			<label class="error"><?php echo $err;?></label>
 			<div class="form-group">
 				<label for="e">Email: </label>
 				<input type="email" id="e" name="e" />
@@ -130,19 +130,19 @@ Nature Connect - Basic Website:
 			</div>
 			<div class="form-group">
 				<label for="user">Username: </label>
-				<input type="username" id="user" name="user" required />
-				<label class="error"><?php echo $user;?></label>	
+				<input type="username" id="user" name="user" required />	
             		</div>
+			<label class="error"><?php echo $user;?></label>
 			<div class="form-group">
 				<label for="pw1">Password: </label>
 				<input type="password" id="pw1" name="pw1" required />
-				<label class="error"><?php echo $pw1;?></label>	
 			</div>
+			<label class="error"><?php echo $pw1;?></label>
 			<div class="form-group">
 				<label for="pw2">Re-Enter Password: </label>
 				<input type="password" id="pw2" name="pw2" required />
-				<label class="error"><?php echo $pw2;?></label>
             		</div>
+			<label class="error"><?php echo $pw2;?></label>
 			<button type="submit">Sign Up</button>
         	</form>
 	</div>
