@@ -17,7 +17,6 @@ Nature Connect - Basic Website:
 	<style>
 		html {background-color: #8B4513;}
 		body {font-family: 'Times New Roman', serif; display: flex;	flex-direction: column;	justify-content: center; align-items: center; text-align: center; margin: 0; min-height:100vh; }
-		<!-- header {background-color: #4CAF50; text-align: center; padding: 10px 0; color: white; position: fixed; width: 100%; } -->
 		.header {width: 100%; color: black; background-color: #8A9A5B; text-align: center; padding: 5px; box-sizing: border-box; margin-top: 0; }
 		header {background-color: #8A9A5B; width: 100%;}
 		nav a {margin: 0 15px; color: #white;text-decoration: none; }
