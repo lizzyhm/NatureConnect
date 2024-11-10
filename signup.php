@@ -59,14 +59,14 @@ Nature Connect - Basic Website:
 				$_SESSION['user'] = $user;
 			}
 
-			if (!preg_match("/[A-z]/", $n)){
+			if (!preg_match("/[A-z]/", $name)){
 				$err = "Name is required";
 			}
-			else if (preg_match("/\d/", $n))
+			else if (preg_match("/\d/", $name))
 			{
 				$err = "Name should not contain numbers";
 			}
-			else if (preg_match("/\W/", $n) && !preg_match("/\s/", $n))
+			else if (preg_match("/\W/", $name) && !preg_match("/\s/", $name))
 			{
 				$err = "Name should only contain letters and spaces";
 			}
