@@ -37,8 +37,10 @@ Nature Connect :
 	<div class="main">
 		<p>Congratulations, <b><?php echo $user;?></b>, you have successfully logged in!</p>
 	</div>
-	<footer>
-        <p>&copy; 2024 NatureConnect. All rights reserved.</p>
-    </footer>
+    <div class="footer">
+	<?php
+		include "footer.php";
+	?>
+    </div>
 </body>
 </html>
