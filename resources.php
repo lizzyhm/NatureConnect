@@ -22,8 +22,10 @@ Nature Connect :
         <h2>Resources</h2>
         <p>Explore our collection of resources to help you live a more sustainable and eco-friendly life.</p>
     </main>
-    <footer>
-        <p>&copy; 2024 NatureConnect. All rights reserved.</p>
-    </footer>
+     <div class="footer">
+	<?php
+		include "footer.php";
+	?>
+    </div>
 </body>
 </html>
