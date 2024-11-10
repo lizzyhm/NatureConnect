@@ -58,7 +58,7 @@ Nature Connect - Basic Website:
     <div class="main">
         <h2>Log In</h2>
 		<div class="container">
-			<form action="login.php" method="POST">
+			<form action="success_login.php" method="POST">
 				<div class="form-group">
 					<label for="user">Username: </label>
 					<input type="username" id="user" name="user" required value="<?php echo htmlspecialchars($user); ?>" />
