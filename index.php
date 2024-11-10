@@ -14,10 +14,10 @@ Nature Connect :
 </head>
 <body>
     <div class="header">
-		<?php
-			include "header.php";
-		?>
-	</div>
+	<?php
+		include "header.php";
+	?>
+    </div>
     <main>
         <h2>Welcome to NatureConnect</h2>
         <p>Your gateway to connecting with the natural world. Join us in exploring the beauty of nature and finding ways to protect our environment.</p>
