@@ -96,8 +96,8 @@ Nature Connect - Basic Website:
     </div>
     <div class="main">
         <h2>Sign Up</h2>
-		<div class="container">
-        <form action="signup.php" method="POST">
+	<div class="container">
+        	<form action="signup.php" method="POST">
 			<div class="form-group">
 				<label for="n">Name: </label>
 				<input type="name" id="n" name="n" required />
@@ -126,8 +126,8 @@ Nature Connect - Basic Website:
 				<label class="error"><?php echo $pw2?></label>
             		</div>
 			<button type="submit">Sign Up</button>
-        </form>
-		</div>
+        	</form>
+	</div>
     </div>
      <div class="footer">
 	<?php
