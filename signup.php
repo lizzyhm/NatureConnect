@@ -125,8 +125,10 @@ Nature Connect :
         </form>
 		</div>
     </div>
-    <footer>
-        <p>&copy; 2024 NatureConnect. All rights reserved.</p>
-    </footer>
+     <div class="footer">
+	<?php
+		include "footer.php";
+	?>
+    </div>
 </body>
 </html>
