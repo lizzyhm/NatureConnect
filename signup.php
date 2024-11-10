@@ -42,12 +42,12 @@ Nature Connect - Basic Website:
 		$errpw1 = "";
 		// for the re-enter password validation error
 		$errpw2 = "";
-		$name = "";
+		$n = "";
 		$user = "";
 		$pw1 = "";
 		$pw2 = "";
 		if ($_SERVER['REQUEST_METHOD'] == 'POST'){
-			$name = $_POST['n'];
+			$n= $_POST['n'];
 			$user = $_POST['user'];
 			$pw1 = $_POST['pw1'];
 			$pw2 = $_POST['pw2'];
@@ -59,14 +59,14 @@ Nature Connect - Basic Website:
 				$_SESSION['user'] = $user;
 			}
 
-			if (!preg_match("/[A-z]/", $name)){
+			if (!preg_match("/[A-z]/", $n)){
 				$err = "Name is required";
 			}
-			else if (preg_match("/\d/", $name))
+			else if (preg_match("/\d/", $n))
 			{
 				$err = "Name should not contain numbers";
 			}
-			else if (preg_match("/\W/", $name) && !preg_match("/\s/", $name))
+			else if (preg_match("/\W/", $n) && !preg_match("/\s/", $n))
 			{
 				$err = "Name should only contain letters and spaces";
 			}
@@ -118,7 +118,7 @@ Nature Connect - Basic Website:
 			<div class="form-group">
 				<label for="n">Name: </label>
 				<input type="name" id="n" name="n" required />
-				<label class="error"><?php echo $err?></label>	
+				<label class="error"><?php echo $err;?></label>	
 			</div>
 			<div class="form-group">
 				<label for="e">Email: </label>
@@ -131,17 +131,17 @@ Nature Connect - Basic Website:
 			<div class="form-group">
 				<label for="user">Username: </label>
 				<input type="username" id="user" name="user" required />
-				<label class="error"><?php echo $user?></label>	
+				<label class="error"><?php echo $user;?></label>	
             		</div>
 			<div class="form-group">
 				<label for="pw1">Password: </label>
 				<input type="password" id="pw1" name="pw1" required />
-				<label class="error"><?php echo $pw1?></label>	
+				<label class="error"><?php echo $pw1;?></label>	
 			</div>
 			<div class="form-group">
 				<label for="pw2">Re-Enter Password: </label>
 				<input type="password" id="pw2" name="pw2" required />
-				<label class="error"><?php echo $pw2?></label>
+				<label class="error"><?php echo $pw2;?></label>
             		</div>
 			<button type="submit">Sign Up</button>
         	</form>
