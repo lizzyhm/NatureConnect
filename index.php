@@ -27,10 +27,10 @@ Nature Connect :
 		include "header.php";
 	?>
     </div>
-    <main>
+    <div class="main">
         <h2>Welcome to NatureConnect</h2>
         <p>Your gateway to connecting with the natural world. Join us in exploring the beauty of nature and finding ways to protect our environment.</p>
-    </main>
+    </div>
      <div class="footer">
 	<?php
 		include "footer.php";
