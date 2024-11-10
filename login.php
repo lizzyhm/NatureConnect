@@ -14,7 +14,7 @@ Nature Connect - Basic Website:
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NatureConnect - Log In/Sign Up</title>
-    <style>
+	<style>
 		html {background-color: #83af9b;}
 		body {font-family: 'Times New Roman', serif; display: flex;	flex-direction: column;	justify-content: center; align-items: center; text-align: center; margin: 0; min-height:100vh; }
 		header {background-color: #8A9A5B; padding: 10px 0; color: white;  width: 100%;}
@@ -31,7 +31,7 @@ Nature Connect - Basic Website:
 		input[type="submit"] {margin-top: 15px; }
 		.footer {width: 100%; color: black; background-color: #8A9A5B; text-align: center; padding: 5px; padding-top: 20px;	box-sizing: border-box; }
 		footer {background-color: #8A9A5B; text-align: center; padding: 10px 0; color: white; width: 100%; }
-    </style>
+	</style>
 </head>
 <body>
 	<?php
@@ -55,27 +55,27 @@ Nature Connect - Basic Website:
 			include "header.php";
 		?>
 	</div>
-    <div class="main">
-        <h2>Log In</h2>
-		<div class="container">
-			<form action="success_login.php" method="POST">
-				<div class="form-group">
-					<label for="user">Username: </label>
-					<input type="username" id="user" name="user" required value="<?php echo htmlspecialchars($user); ?>" />
-				</div>
-				<div class="form-group">
-					<label for="pw">Password: </label>
-					<input type="password" id="pw" name="pw" required value="<?php echo $pw; ?>" />
-				</div>
-				<button type="submit">Log In</button>
-			</form>
-		</div>
-        <a href="signup.php">Need to Sign Up? Click Here!</a>
-    </div>
-    <div class="footer">
-	<?php
-		include "footer.php";
-	?>
-    </div>
+   	<div class="main">
+        	<h2>Log In</h2>
+			<div class="container">
+				<form action="login.php" method="POST">
+					<div class="form-group">
+						<label for="user">Username: </label>
+						<input type="username" id="user" name="user" required value="<?php echo htmlspecialchars($user); ?>" />
+					</div>
+					<div class="form-group">
+						<label for="pw">Password: </label>
+						<input type="password" id="pw" name="pw" required value="<?php echo $pw; ?>" />
+					</div>
+					<button type="submit">Log In</button>
+				</form>
+			</div>
+        	<a href="signup.php">Need to Sign Up? Click Here!</a>
+   	</div>
+	<div class="footer">
+		<?php
+			include "footer.php";
+		?>
+	</div>
 </body>
 </html>
