@@ -34,16 +34,20 @@ Nature Connect - Basic Website:
 </head>
 <body>
 	<?php
-		// for the name validation error 
+		// for the name validation error
+		$err = "";
+		// for the username validation error 
 		$empname = "";
 		// for the password validation error
 		$errpw1 = "";
 		// for the re-enter password validation error
 		$errpw2 = "";
+		$name = "";
 		$user = "";
 		$pw1 = "";
 		$pw2 = "";
 		if ($_SERVER['REQUEST_METHOD'] == 'POST'){
+			$name = $_POST['n'];
 			$user = $_POST['user'];
 			$pw1 = $_POST['pw1'];
 			$pw2 = $_POST['pw2'];
@@ -54,6 +58,19 @@ Nature Connect - Basic Website:
 			else {
 				$_SESSION['user'] = $user;
 			}
+
+			if (!preg_match("/[A-z]/", $n)){
+				$err = "Name is required";
+			}
+			else if (preg_match("/\d/", $n))
+			{
+				$err = "Name should not contain numbers";
+			}
+			else if (preg_match("/\W/", $n) && !preg_match("/\s/", $n))
+			{
+				$err = "Name should only contain letters and spaces";
+			}
+
 			
 			// validating the new password
 			// the php documentation for empty: https://www.php.net/manual/en/function.empty.php
@@ -101,6 +118,7 @@ Nature Connect - Basic Website:
 			<div class="form-group">
 				<label for="n">Name: </label>
 				<input type="name" id="n" name="n" required />
+				<label class="error"><?php echo $err?></label>	
 			</div>
 			<div class="form-group">
 				<label for="e">Email: </label>
