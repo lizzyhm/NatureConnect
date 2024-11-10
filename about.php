@@ -16,8 +16,8 @@ Nature Connect :
 		header {background-color: #8A9A5B; padding: 10px 0; color: white;  width: 100%;}
 		.header {width: 100%; color: black; background-color: #8A9A5B; text-align: center; padding: 5px; padding-bottom: 20px; box-sizing: border-box; margin-top: 0; }
 		nav a {margin: 0 15px; text-decoration: none; }
-		.main {background: #D2B48C ; width: 100%; box-sizing: border-box; text-align: center; margin-top: 15px; display: flex; flex-direction: column; align-items: center; justify-content: center; flex-grow: 1; }
-		.footer {width: 100%; color: black; background-color: #8A9A5B; text-align: center; padding: 5px; padding-top: 20px;	box-sizing: border-box; }
+		.main {background: #D2B48C ; width: 100%; box-sizing: border-box; text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: center; flex-grow: 1; }
+		.footer {width: 100%; color: black; background-color: #8A9A5B; text-align: center; padding: 5px; padding-top: 20px; box-sizing: border-box; }
 		footer {background-color: #8A9A5B; text-align: center; padding: 10px 0; color: white; width: 100%; }
     </style>
 </head>
