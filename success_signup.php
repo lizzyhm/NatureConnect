@@ -22,5 +22,10 @@
 		?>
     </div>
     <p>Congratulations, <b><?php echo $user;?></b>, you have successfully signed up!</p>
+     <div class="footer">
+	<?php
+		include "footer.php";
+	?>
+    </div>
 </body>
 </html>
