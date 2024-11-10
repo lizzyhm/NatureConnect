@@ -13,15 +13,11 @@ Nature Connect :
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>NatureConnect</h1>
-        <nav>
-            <a href="index.php">Home</a>
-            <a href="about.php">About Us</a>
-            <a href="resources.php">Resources</a>
-            <a href="login.php">Log In/Sign Up</a>
-        </nav>
-    </header>
+    <div class="header">
+		<?php
+			include "header.php";
+		?>
+	</div>
     <main>
         <h2>Welcome to NatureConnect</h2>
         <p>Your gateway to connecting with the natural world. Join us in exploring the beauty of nature and finding ways to protect our environment.</p>
