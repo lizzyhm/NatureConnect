@@ -22,8 +22,10 @@ Nature Connect :
         <h2>About Us</h2>
         <p>NatureConnect is dedicated to fostering a connection between people and the environment. Our mission is to educate, inspire, and provide resources for sustainable living.</p>
     </main>
-    <footer>
-        <p>&copy; 2024 NatureConnect. All rights reserved.</p>
-    </footer>
+     <div class="footer">
+	<?php
+		include "footer.php";
+	?>
+    </div>
 </body>
 </html>
