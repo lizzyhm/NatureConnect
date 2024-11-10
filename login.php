@@ -74,10 +74,10 @@ Nature Connect :
 		</div>
         <a href="signup.php">Need to Sign Up? Click Here!</a>
     </div>
-	<div class="footer">
-		<?php
-			include "footer.php";
-		?>
-	</div>
+    <div class="footer">
+	<?php
+		include "footer.php";
+	?>
+    </div>
 </body>
 </html>
