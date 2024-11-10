@@ -14,7 +14,6 @@ Nature Connect :
 	<meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Success</title>
-	<!-- <link rel="stylesheet" href="styles.css"> -->
 	<style>
 		html {background-color: #8B4513;}
 		body {font-family: 'Times New Roman', serif; display: flex;	flex-direction: column;	justify-content: center; align-items: center; text-align: center; margin: 0; min-height:100vh; }
